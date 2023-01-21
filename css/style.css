@@ -1,4 +1,42 @@
 body {
 	font-family: sans-serif;
 	padding: 1em 3em;
+
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.page-header{
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+	grid-template-rows: auto;
+
+	align-items: center;
+
+	background-color: beige;
+	height: 8rem;
+}
+.butt-show-buss{
+	width: 80px;
+	height: 50px;
+
+	background-color: rgb(43, 43, 91);
+	color: aliceblue;
+}
+.butt-show-buss:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.buss-list-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: bisque;
+	width: 100vw;
+	height: 600px;
+}
+.buss-list{
+	
 }
